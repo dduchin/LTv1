@@ -1,0 +1,48 @@
+{
+  "ProjectName": "LTv1 Hybrid",
+  "ProjectGuid": "63e35caa-2592-43ed-b717-593e0c7940c5",
+  "projectVersion": 1,
+  "AppIdentifier": "com.telerik.LTv1Hybrid",
+  "DisplayName": "LTv1 Hybrid",
+  "Author": "",
+  "Description": "LTv1 Hybrid",
+  "BundleVersion": "1.0",
+  "AndroidVersionCode": "1",
+  "iOSDeviceFamily": [
+    "1",
+    "2"
+  ],
+  "iOSBackgroundMode": [],
+  "ProjectTypeGuids": "{070BCB52-5A75-4F8C-A973-144AF0EAFCC9}",
+  "FrameworkVersion": "3.7.0",
+  "AndroidPermissions": [
+    "android.permission.INTERNET"
+  ],
+  "DeviceOrientations": [
+    "Portrait",
+    "Landscape"
+  ],
+  "AndroidHardwareAcceleration": "false",
+  "iOSStatusBarStyle": "Default",
+  "Framework": "Cordova",
+  "WP8TileTitle": "",
+  "WP8Publisher": "",
+  "WP8Capabilities": [
+    "ID_CAP_NETWORKING",
+    "ID_CAP_WEBBROWSERCOMPONENT"
+  ],
+  "WP8Requirements": [],
+  "WP8PublisherID": "{6c5c226e-0ebb-4303-9a9a-328bbbdb26dc}",
+  "WP8ProductID": "{1aa1b738-06df-4bff-97a8-f661870fcba8}",
+  "WPSdk": "8.0",
+  "WP8PackageIdentityName": "1234Telerik.LTv1Hybrid",
+  "WP8WindowsPublisherName": "CN=Telerik",
+  "WP8SupportedResolutions": [
+    "ID_RESOLUTION_WVGA",
+    "ID_RESOLUTION_WXGA",
+    "ID_RESOLUTION_HD720P"
+  ],
+  "CorePlugins": [
+    "org.apache.cordova.network-information"
+  ]
+}
