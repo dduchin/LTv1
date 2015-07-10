@@ -32,6 +32,29 @@
       "type": "view",
       "components": [
         {
+          "type": "list",
+          "name": "dataListViewModel",
+          "dataProvider": "defaultProvider",
+          "collection": "Leads",
+          "iconField": false,
+          "imageField": "ImgURL",
+          "headerField": "LastName",
+          "subHeaderField": "FirstName",
+          "filterField": "LastName",
+          "masterDetails": false,
+          "pullToRefresh": true,
+          "endlessScroll": true
+        }
+      ],
+      "name": "dataListView",
+      "title": "Leads",
+      "addToNavigation": true,
+      "icon": "contacts"
+    },
+    {
+      "type": "view",
+      "components": [
+        {
           "type": "about",
           "name": "aboutModel",
           "appName": "Lead Tracker Mobile",
@@ -52,29 +75,6 @@
       "title": "About",
       "addToNavigation": true,
       "icon": "info"
-    },
-    {
-      "type": "view",
-      "components": [
-        {
-          "type": "list",
-          "name": "dataListViewModel",
-          "dataProvider": "defaultProvider",
-          "collection": "Leads",
-          "iconField": false,
-          "imageField": "ImgURL",
-          "headerField": "LastName",
-          "subHeaderField": "FirstName",
-          "filterField": "LastName",
-          "masterDetails": false,
-          "pullToRefresh": true,
-          "endlessScroll": true
-        }
-      ],
-      "name": "dataListView",
-      "title": "Leads",
-      "addToNavigation": true,
-      "icon": "contacts"
     }
   ],
   "dataProviders": [
